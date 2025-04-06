@@ -34,9 +34,9 @@ else
     echo "14. Minecraft 1.18.1"
     echo "15. Minecraft 1.19.1"
     echo "16. Minecraft 1.20.1"
-    read -p "Enter your choice (1-16): " version_choice
+    read -p "Enter your choice (1.20.1): " version_choice
 
-    case "$version_choice" in
+    case "$version_choice" in 16
         1 ) minecraft_version="1.5.2";;
         2 ) minecraft_version="1.6.4";;
         3 ) minecraft_version="1.7.10";;
